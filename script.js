@@ -10,15 +10,12 @@ e.preventDefault();
 const input = todo.value;
 console.log(input);
 
-
-
 btn.addEventListener("click", (e)=>{
   const p = document.createElement("p");
   item.append(p);
   p.innerHTML=input;
  // console.log(p);
 
- 
 });
 
 item.addEventListener("click", (e)=>{
@@ -26,7 +23,5 @@ item.addEventListener("click", (e)=>{
 console.log(clear);
   clear.remove();
 });
-
-
 
 });
