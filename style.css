@@ -42,15 +42,18 @@ form {
     border-radius: 3px;
     margin: 0 auto;
     width: 300px;
-    height: 150px;
+    min-height: 150px;
     text-align: center;
     padding: 20px;
    }
 
    .todo-item {
     margin-top: 10px;
-    height: 20px;
+    min-height: 20px;
     border-radius: 3px;
     padding-bottom: 10px;
     border: 1px solid rgb(179, 174, 174);
+   }
+   p {
+       background-color: aliceblue;
    }
